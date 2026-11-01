@@ -22,10 +22,23 @@ class Drink:
         return round(price, 2)
 
     def describe(self):
-        
+        size_letter = {
+            "Small": "S",
+            "Medium": "M",
+            "Large": "L",
+            "S": "S",
+            "M": "M",
+            "L": "L", 
+            "s": "S",
+            "m": "M",
+            "l": "L",
+            "a": "M",
+            "r": "S"
+            }
         return (
-            f"{self.name} | {self.size} | {self.milk} milk | "
-            f"{self.temperature} | ${self.calculate_price():.2f}"
+            f"{self.name} | {size_letter[self.size]} | " 
+            f"{self.milk} milk | {self.temperature} | "
+            f"${self.calculate_price():.2f}"
         )
 
 
@@ -56,3 +69,5 @@ def create_drink(name, size, milk, temperature):
         return Matcha(name, price, size, milk, temperature)
 
     return Coffee(name, price, size, milk, temperature)
+
+
