@@ -1,0 +1,140 @@
+[
+    {
+        "items": [
+            {
+                "name": "Matcha Latte",
+                "size": "r",
+                "milk": "l",
+                "temperature": "I",
+                "price": 5.25
+            },
+            {
+                "name": "Strawberry Matcha Latte",
+                "size": "r",
+                "milk": "A",
+                "temperature": "c",
+                "price": 5.5
+            },
+            {
+                "name": "Iced Vanilla Latte",
+                "size": "r",
+                "milk": "m",
+                "temperature": "c",
+                "price": 5.5
+            }
+        ],
+        "total": 16.25
+    },
+    {
+        "items": [
+            {
+                "name": "Iced Vanilla Latte",
+                "size": "L",
+                "milk": "A",
+                "temperature": "I",
+                "price": 5.5
+            }
+        ],
+        "total": 5.5
+    },
+    {
+        "items": [
+            {
+                "name": "Caramel Macchiato",
+                "size": "a",
+                "milk": "l",
+                "temperature": "c",
+                "price": 5.5
+            }
+        ],
+        "total": 5.5
+    },
+    {
+        "items": [
+            {
+                "name": "Caramel Macchiato",
+                "size": "a",
+                "milk": "A",
+                "temperature": "c",
+                "price": 5.5
+            }
+        ],
+        "total": 5.5
+    },
+    {
+        "items": [
+            {
+                "name": "Caramel Macchiato",
+                "size": "a",
+                "milk": "l",
+                "temperature": "c",
+                "price": 5.5
+            }
+        ],
+        "total": 5.5
+    },
+    {
+        "items": [
+            {
+                "name": "Iced Vanilla Latte",
+                "size": "a",
+                "milk": "l",
+                "temperature": "c",
+                "price": 5.5
+            }
+        ],
+        "total": 5.5
+    },
+    {
+        "items": [
+            {
+                "name": "Iced Vanilla Latte",
+                "size": "L",
+                "milk": "l",
+                "temperature": "c",
+                "price": 5.5
+            },
+            {
+                "name": "Matcha Latte",
+                "size": "a",
+                "milk": "m",
+                "temperature": "I",
+                "price": 5.25
+            },
+            {
+                "name": "Strawberry Matcha Latte",
+                "size": "r",
+                "milk": "A",
+                "temperature": "c",
+                "price": 5.5
+            }
+        ],
+        "total": 16.25
+    },
+    {
+        "items": [
+            {
+                "name": "Caramel Macchiato",
+                "size": "Medium",
+                "milk": "Whole",
+                "temperature": "Hot",
+                "price": 5.75
+            },
+            {
+                "name": "Iced Vanilla Latte",
+                "size": "Small",
+                "milk": "Whole",
+                "temperature": "Hot",
+                "price": 5.5
+            },
+            {
+                "name": "Strawberry Matcha Latte",
+                "size": "Large",
+                "milk": "Almond",
+                "temperature": "Iced",
+                "price": 6.0
+            }
+        ],
+        "total": 17.25
+    }
+]
