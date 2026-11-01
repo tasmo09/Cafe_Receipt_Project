@@ -13,12 +13,13 @@ def display_menu():
     print("==============================")
 
 
-def choose_option(option, question):
+
+def choose_option(options, question):
 
     while True:
         print(f"\n{question}")
 
-        for number, option in enumerate(option, start=1):
+        for number, option in enumerate(options, start=1):
             print(f"{number}. {option}")
 
         choice = input("Enter your choice: ").strip()
@@ -26,10 +27,11 @@ def choose_option(option, question):
         if choice.isdigit():
             choice_number = int(choice)
 
-            if 1 <= choice_number <= len(option):
-                return option[choice_number - 1]
+            if 1 <= choice_number <= len(options):
+                return options[choice_number - 1]
 
         print("Invalid choice. Please try again.")
+
 
 def place_order():
     

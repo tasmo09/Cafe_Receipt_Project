@@ -22,21 +22,15 @@ class Drink:
         return round(price, 2)
 
     def describe(self):
+
         size_letter = {
             "Small": "S",
             "Medium": "M",
-            "Large": "L",
-            "S": "S",
-            "M": "M",
-            "L": "L", 
-            "s": "S",
-            "m": "M",
-            "l": "L",
-            "a": "M",
-            "r": "S"
-            }
+            "Large": "L"
+        }
+
         return (
-            f"{self.name} | {size_letter[self.size]} | " 
+            f"{self.name} | {size_letter[self.size]} | "
             f"{self.milk} milk | {self.temperature} | "
             f"${self.calculate_price():.2f}"
         )
