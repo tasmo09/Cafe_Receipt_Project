@@ -1,0 +1,40 @@
+[
+    {
+        "items": [
+            {
+                "name": "Matcha Latte",
+                "size": "r",
+                "milk": "l",
+                "temperature": "I",
+                "price": 5.25
+            },
+            {
+                "name": "Strawberry Matcha Latte",
+                "size": "r",
+                "milk": "A",
+                "temperature": "c",
+                "price": 5.5
+            },
+            {
+                "name": "Iced Vanilla Latte",
+                "size": "r",
+                "milk": "m",
+                "temperature": "c",
+                "price": 5.5
+            }
+        ],
+        "total": 16.25
+    },
+    {
+        "items": [
+            {
+                "name": "Iced Vanilla Latte",
+                "size": "L",
+                "milk": "A",
+                "temperature": "I",
+                "price": 5.5
+            }
+        ],
+        "total": 5.5
+    }
+]
